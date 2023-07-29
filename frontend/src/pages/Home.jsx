@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import { About } from "../components/About/About";
 import { Services } from "../components/Services/Services";
+import { Feature } from "../components/Feature/Feature";
 
 export const Home = () => {
   return (
@@ -147,6 +148,7 @@ export const Home = () => {
       </section>
       <About />
       <Services/>
+      <Feature/>
     </>
   );
 };
