@@ -7,6 +7,7 @@ import icon03 from "../assets/images/icon03.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import { About } from "../components/About/About";
+import { Services } from "../components/Services/Services";
 
 export const Home = () => {
   return (
@@ -145,6 +146,7 @@ export const Home = () => {
         </div>
       </section>
       <About />
+      <Services/>
     </>
   );
 };
